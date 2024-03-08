@@ -13,7 +13,8 @@ const styles = StyleSheet.create({
 		color: "white",
 		textAlign: "center",
 		// borderWidth: Platform.OS === "android" ? 2 : 0,
-		borderWidth: Platform.select({ ios: 0, android: 2 }),
+		// borderWidth: Platform.select({ ios: 0, android: 2 }),
+		borderWidth: 2,
 		borderColor: Colors.accent500,
 		padding: 12,
 		//use max and min to create more responsive sizes (doesn't cascade), precentage setting always refer to the parent container, 80% of the space taken up by the parent container
